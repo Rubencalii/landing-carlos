@@ -140,7 +140,22 @@ landing-carlos/
    - ✅ Los enlaces legales funcionan
    - ✅ Es responsive en móvil
 
-## ⚙️ Personalizaciones necesarias
+## ⚙️ Configuración necesaria
+
+> **⚠️ IMPORTANTE**: Antes de subir a producción, debes configurar:
+
+### **📧 Formulario de contacto (Formspree)**
+- Regístrate en [formspree.io](https://formspree.io/) 
+- Obtén tu Form ID
+- Actualiza `action="https://formspree.io/f/YOUR_FORM_ID"` en `index.html`
+
+### **📅 Calendly**  
+- Crea tu cuenta en [calendly.com](https://calendly.com/)
+- Actualiza las URLs en `js/main.js` e `index.html`
+
+**👉 [Ver guía completa de configuración](CONFIGURACION.md)**
+
+## ⚙️ Personalizaciones opcionales
 
 ### 1. Información de contacto
 En `index.html`, actualizar:
