@@ -146,7 +146,7 @@ landing-carlos/
 En `index.html`, actualizar:
 ```html
 <!-- Cambiar datos de contacto -->
-<p>hola@doragency.com</p>
+<p>cargonza2412@gmail.com</p>
 <p>+34 123 456 789</p>
 <p>Madrid, España</p>
 ```
@@ -250,7 +250,7 @@ Las contribuciones son bienvenidas. Para cambios importantes:
 ## 📧 Contacto
 
 **D OR Agency**
-- Email: hola@doragency.com
+- Email: cargonza2412@gmail.com
 - LinkedIn: [@doragency](https://linkedin.com/company/doragency)
 - Web: [doragency.com](https://doragency.com)
 
