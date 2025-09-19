@@ -1,0 +1,31 @@
+{
+  "name": "d-or-agency-landing",
+  "version": "1.0.0",
+  "description": "Landing page comercial para D OR Agency - Especialistas en Facebook Ads y TikTok Ads",
+  "main": "index.html",
+  "scripts": {
+    "start": "python -m http.server 8000",
+    "serve": "python -m http.server 8000",
+    "deploy": "echo 'Archivos listos para subir a InfinityFree o cualquier hosting'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/TU_USUARIO/d-or-agency-landing.git"
+  },
+  "keywords": [
+    "landing-page",
+    "facebook-ads",
+    "tiktok-ads",
+    "marketing-digital",
+    "smma",
+    "performance-marketing",
+    "ugc",
+    "cro"
+  ],
+  "author": "D OR Agency",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/TU_USUARIO/d-or-agency-landing/issues"
+  },
+  "homepage": "https://github.com/TU_USUARIO/d-or-agency-landing#readme"
+}

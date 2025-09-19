@@ -1,0 +1,759 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>D OR Agency - Escala tu adquisición con anuncios que convierten</title>
+    <meta name="description" content="En D OR Agency planificamos, ejecutamos y optimizamos campañas de Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable.">
+    <meta name="keywords" content="Facebook Ads, TikTok Ads, SMMA, Marketing Digital, Performance Marketing">
+    
+    <!-- Open Graph -->
+    <meta property="og:title" content="D OR Agency - Escala tu adquisición con anuncios que convierten">
+    <meta property="og:description" content="Planificamos, ejecutamos y optimizamos campañas de Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable.">
+    <meta property="og:type" content="website">
+    <meta property="og:url" content="https://doragency.com">
+    
+    <!-- Twitter Cards -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="D OR Agency - Escala tu adquisición con anuncios que convierten">
+    <meta name="twitter:description" content="Planificamos, ejecutamos y optimizamos campañas de Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable.">
+    
+    <!-- Favicon -->
+    <link rel="icon" href="favicon.ico" type="image/x-icon">
+    
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;600;700&family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="css/styles.css">
+    
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</head>
+<body>
+    <!-- Header -->
+    <header class="header">
+        <div class="container">
+            <div class="nav-wrapper">
+                <div class="logo">
+                    <h3>D <span class="accent">OR</span> Agency</h3>
+                </div>
+                <nav class="nav">
+                    <ul class="nav-list">
+                        <li><a href="#inicio" class="nav-link">Inicio</a></li>
+                        <li><a href="#servicios" class="nav-link">Servicios</a></li>
+                        <li><a href="#casos" class="nav-link">Casos de Éxito</a></li>
+                        <li><a href="#nosotros" class="nav-link">Nosotros</a></li>
+                        <li><a href="#contacto" class="nav-link">Contacto</a></li>
+                    </ul>
+                </nav>
+                <button class="cta-btn primary" onclick="openCalendly()">Agenda una llamada</button>
+                <button class="mobile-menu-btn">
+                    <i class="fas fa-bars"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <!-- Hero Section -->
+    <section id="inicio" class="hero">
+        <div class="container">
+            <div class="hero-content">
+                <h1 class="hero-title">Escala tu adquisición con anuncios que <span class="accent">convierten</span></h1>
+                <p class="hero-subtitle">En D OR Agency planificamos, ejecutamos y optimizamos campañas de Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable.</p>
+                <div class="hero-ctas">
+                    <button class="cta-btn primary" onclick="openCalendly()">
+                        <i class="fas fa-calendar-alt"></i>
+                        Agenda una llamada
+                    </button>
+                    <button class="cta-btn secondary" onclick="scrollToSection('contacto')">
+                        <i class="fas fa-chart-line"></i>
+                        Auditoría gratuita
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="dashboard-mockup">
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">847%</span>
+                            <span class="metric-label">ROAS Promedio</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">€2.45</span>
+                            <span class="metric-label">CPL Promedio</span>
+                        </div>
+                    </div>
+                    <div class="dashboard-card">
+                        <div class="metric">
+                            <span class="metric-value">+150%</span>
+                            <span class="metric-label">Crecimiento</span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Logos Section -->
+    <section class="logos-section">
+        <div class="container">
+            <p class="logos-subtitle">Empresas que confían en nosotros</p>
+            <div class="logos-grid">
+                <div class="logo-item">
+                    <div class="logo-placeholder">BRAND</div>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-placeholder">COMPANY</div>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-placeholder">BUSINESS</div>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-placeholder">STARTUP</div>
+                </div>
+                <div class="logo-item">
+                    <div class="logo-placeholder">AGENCY</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Services Section -->
+    <section id="servicios" class="services-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestros servicios</h2>
+                <p class="section-subtitle">Soluciones completas para hacer crecer tu negocio</p>
+            </div>
+            <div class="services-grid">
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-facebook-f"></i>
+                    </div>
+                    <h3 class="service-title">Facebook Ads</h3>
+                    <p class="service-description">Funnel completo, CBO/ABO, retargeting y optimización LTV para maximizar tu rentabilidad.</p>
+                    <ul class="service-features">
+                        <li>Estrategia de funnel completa</li>
+                        <li>Optimización CBO/ABO</li>
+                        <li>Retargeting avanzado</li>
+                        <li>Maximización LTV</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fab fa-tiktok"></i>
+                    </div>
+                    <h3 class="service-title">TikTok Ads</h3>
+                    <p class="service-description">Anuncios nativos, hooks efectivos, whitelisting y Spark Ads para captar la atención Z y Millennial.</p>
+                    <ul class="service-features">
+                        <li>Anuncios nativos</li>
+                        <li>Hooks que detienen el scroll</li>
+                        <li>Whitelisting estratégico</li>
+                        <li>Spark Ads optimizados</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-video"></i>
+                    </div>
+                    <h3 class="service-title">UGC Creatives</h3>
+                    <p class="service-description">Guiones, producción y edición de contenido generado por usuarios que conecta emocionalmente.</p>
+                    <ul class="service-features">
+                        <li>Guiones persuasivos</li>
+                        <li>Producción profesional</li>
+                        <li>Edición optimizada</li>
+                        <li>Testing A/B de creatividades</li>
+                    </ul>
+                </div>
+                <div class="service-card">
+                    <div class="service-icon">
+                        <i class="fas fa-chart-bar"></i>
+                    </div>
+                    <h3 class="service-title">CRO & Funnel</h3>
+                    <p class="service-description">Hipótesis, A/B testing y analytics para optimizar cada paso del customer journey.</p>
+                    <ul class="service-features">
+                        <li>Hipótesis data-driven</li>
+                        <li>A/B testing estructurado</li>
+                        <li>Analytics avanzados</li>
+                        <li>Optimización continua</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Benefits Section -->
+    <section class="benefits-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">¿Por qué elegir D OR Agency?</h2>
+                <p class="section-subtitle">Resultados que hablan por sí solos</p>
+            </div>
+            <div class="benefits-grid">
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-chart-line"></i>
+                    </div>
+                    <h3 class="benefit-title">ROAS Predecible</h3>
+                    <p class="benefit-description">Enfoque en margen y rentabilidad sostenible a largo plazo</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-eye"></i>
+                    </div>
+                    <h3 class="benefit-title">Creatividades UGC</h3>
+                    <p class="benefit-description">Contenido que detiene el scroll y genera engagement real</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-flask"></i>
+                    </div>
+                    <h3 class="benefit-title">Testing Estructurado</h3>
+                    <p class="benefit-description">Aprendizaje continuo basado en datos y optimización constante</p>
+                </div>
+                <div class="benefit-card">
+                    <div class="benefit-icon">
+                        <i class="fas fa-analytics"></i>
+                    </div>
+                    <h3 class="benefit-title">Reporting Claro</h3>
+                    <p class="benefit-description">Data-driven insights con métricas transparentes y accionables</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Case Studies Section -->
+    <section id="casos" class="cases-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Casos de éxito</h2>
+                <p class="section-subtitle">Resultados reales de nuestros clientes</p>
+            </div>
+            <div class="cases-grid">
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3 class="case-title">E-commerce Fashion</h3>
+                        <span class="case-industry">Retail</span>
+                    </div>
+                    <div class="case-problem">
+                        <h4>Problema:</h4>
+                        <p>Alto CPA y bajo ROAS en Facebook Ads</p>
+                    </div>
+                    <div class="case-strategy">
+                        <h4>Estrategia:</h4>
+                        <p>Reestructuración completa de funnels + UGC</p>
+                    </div>
+                    <div class="case-results">
+                        <h4>Resultado:</h4>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="metric-number">+340%</span>
+                                <span class="metric-label">ROAS</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">-67%</span>
+                                <span class="metric-label">CPA</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">€180K</span>
+                                <span class="metric-label">Revenue 90 días</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3 class="case-title">SaaS B2B</h3>
+                        <span class="case-industry">Technology</span>
+                    </div>
+                    <div class="case-problem">
+                        <h4>Problema:</h4>
+                        <p>Dificultad para generar leads cualificados</p>
+                    </div>
+                    <div class="case-strategy">
+                        <h4>Estrategia:</h4>
+                        <p>LinkedIn + Facebook Ads + Landing optimizada</p>
+                    </div>
+                    <div class="case-results">
+                        <h4>Resultado:</h4>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="metric-number">+250%</span>
+                                <span class="metric-label">Leads MQL</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">€4.20</span>
+                                <span class="metric-label">CPL</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">47%</span>
+                                <span class="metric-label">Tasa conversión</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="case-card">
+                    <div class="case-header">
+                        <h3 class="case-title">Health & Wellness</h3>
+                        <span class="case-industry">Salud</span>
+                    </div>
+                    <div class="case-problem">
+                        <h4>Problema:</h4>
+                        <p>Audiencias saturadas y creatividades quemadas</p>
+                    </div>
+                    <div class="case-strategy">
+                        <h4>Estrategia:</h4>
+                        <p>TikTok Ads + UGC masivo + Retargeting</p>
+                    </div>
+                    <div class="case-results">
+                        <h4>Resultado:</h4>
+                        <div class="case-metrics">
+                            <div class="case-metric">
+                                <span class="metric-number">+420%</span>
+                                <span class="metric-label">ROAS</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">-45%</span>
+                                <span class="metric-label">CPC</span>
+                            </div>
+                            <div class="case-metric">
+                                <span class="metric-number">€320K</span>
+                                <span class="metric-label">Revenue 6 meses</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Testimonials Section -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Lo que dicen nuestros clientes</h2>
+                <p class="section-subtitle">Testimonios reales de empresarios que han escalado con nosotros</p>
+            </div>
+            <div class="testimonials-carousel">
+                <div class="testimonial-track">
+                    <div class="testimonial-card active">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"D OR Agency transformó completamente nuestros resultados. En 3 meses pasamos de pérdidas a un ROAS de 8.4x. Su enfoque estratégico y la calidad de sus creatividades UGC son excepcionales."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>MC</span>
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">María Carmen</h4>
+                                    <p class="author-position">CEO, Fashion Brand</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Llevábamos años intentando que TikTok Ads funcionara. D OR Agency no solo lo consiguió, sino que se convirtió en nuestro canal más rentable. Profesionales de primer nivel."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>JL</span>
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">José Luis</h4>
+                                    <p class="author-position">Fundador, Tech Startup</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="testimonial-card">
+                        <div class="testimonial-content">
+                            <div class="testimonial-stars">
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                                <i class="fas fa-star"></i>
+                            </div>
+                            <p class="testimonial-text">"Su transparencia y reporting detallado nos permite entender exactamente dónde invertimos cada euro. Los mejores partners que hemos tenido."</p>
+                            <div class="testimonial-author">
+                                <div class="author-avatar">
+                                    <span>AG</span>
+                                </div>
+                                <div class="author-info">
+                                    <h4 class="author-name">Ana García</h4>
+                                    <p class="author-position">CMO, E-commerce</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="testimonial-controls">
+                    <button class="testimonial-btn prev" onclick="prevTestimonial()">
+                        <i class="fas fa-chevron-left"></i>
+                    </button>
+                    <button class="testimonial-btn next" onclick="nextTestimonial()">
+                        <i class="fas fa-chevron-right"></i>
+                    </button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Process Section -->
+    <section class="process-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Nuestro proceso en 4 pasos</h2>
+                <p class="section-subtitle">Metodología probada para garantizar resultados</p>
+            </div>
+            <div class="process-steps">
+                <div class="process-step">
+                    <div class="step-number">01</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Auditoría & Objetivos</h3>
+                        <p class="step-description">Analizamos tu situación actual, competencia y definimos objetivos SMART alineados con tu modelo de negocio.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">02</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Estrategia & Creatividades</h3>
+                        <p class="step-description">Desarrollamos la estrategia de medios y producimos creatividades UGC de alta conversión basadas en insights.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">03</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Lanzamiento & Testeo</h3>
+                        <p class="step-description">Implementamos las campañas con testing estructurado para identificar las mejores combinaciones.</p>
+                    </div>
+                </div>
+                <div class="process-step">
+                    <div class="step-number">04</div>
+                    <div class="step-content">
+                        <h3 class="step-title">Escalado & Optimización</h3>
+                        <p class="step-description">Escalamos los ganadores y optimizamos continuamente para maximizar el ROAS y el crecimiento sostenible.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- FAQ Section -->
+    <section class="faq-section">
+        <div class="container">
+            <div class="section-header">
+                <h2 class="section-title">Preguntas frecuentes</h2>
+                <p class="section-subtitle">Resolvemos tus dudas más comunes</p>
+            </div>
+            <div class="faq-list">
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Cuál es la inversión mínima recomendada?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Recomendamos una inversión publicitaria mínima de €3,000/mes para obtener datos significativos y poder optimizar correctamente las campañas. Esto se suma a nuestra fee de gestión.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿En cuánto tiempo puedo ver resultados?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Los primeros resultados suelen verse en 2-4 semanas. Sin embargo, para obtener datos estadísticamente significativos y optimizar correctamente, recomendamos evaluar el rendimiento a los 60-90 días.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Trabajan con todos los sectores?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Trabajamos principalmente con e-commerce, SaaS, servicios profesionales y marcas D2C. Evitamos sectores regulados como salud, finanzas o apuestas debido a las restricciones publicitarias.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Qué incluye exactamente el servicio?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Incluye estrategia completa, configuración de campañas, producción de creatividades UGC, optimización diaria, reporting semanal y reuniones mensuales de revisión. Todo transparente y sin sorpresas.</p>
+                    </div>
+                </div>
+                <div class="faq-item">
+                    <button class="faq-question">
+                        <span>¿Ofrecen garantías de resultados?</span>
+                        <i class="fas fa-chevron-down"></i>
+                    </button>
+                    <div class="faq-answer">
+                        <p>Si bien no podemos garantizar resultados específicos (nadie honesto puede hacerlo), sí ofrecemos transparencia total y en caso de no ver mejoras en 90 días, revisamos la estrategia sin coste adicional.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- About Section -->
+    <section id="nosotros" class="about-section">
+        <div class="container">
+            <div class="about-content">
+                <div class="about-text">
+                    <h2 class="section-title">Sobre D OR Agency</h2>
+                    <p class="about-description">
+                        Somos una agencia especializada en performance marketing con más de 5 años ayudando a marcas a escalar de forma rentable. 
+                        Nuestro enfoque data-driven y nuestra obsesión por los resultados nos han convertido en el partner de confianza 
+                        de más de 100+ empresas en España y Latinoamérica.
+                    </p>
+                    <div class="about-stats">
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="150">0</span>
+                            <span class="stat-label">Clientes atendidos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="5.2">0</span>
+                            <span class="stat-label">Millones invertidos</span>
+                        </div>
+                        <div class="stat-item">
+                            <span class="stat-number" data-target="420">0</span>
+                            <span class="stat-label">% ROAS promedio</span>
+                        </div>
+                    </div>
+                </div>
+                <div class="team-grid">
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <span>DO</span>
+                        </div>
+                        <h4 class="member-name">David Ortega</h4>
+                        <p class="member-position">CEO & Founder</p>
+                        <p class="member-bio">5+ años en performance marketing. Especialista en Facebook Ads y escalado de campañas.</p>
+                    </div>
+                    <div class="team-member">
+                        <div class="member-photo">
+                            <span>SM</span>
+                        </div>
+                        <h4 class="member-name">Sara Martínez</h4>
+                        <p class="member-position">Creative Director</p>
+                        <p class="member-bio">Experta en UGC y creatividades que convierten. +1000 anuncios producidos.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contacto" class="contact-section">
+        <div class="container">
+            <div class="contact-content">
+                <div class="contact-info">
+                    <h2 class="section-title">¿Listo para crecer?</h2>
+                    <p class="contact-subtitle">Conversemos 20 minutos sobre cómo podemos ayudarte a escalar tu negocio de forma rentable.</p>
+                    
+                    <div class="contact-methods">
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Email</h4>
+                                <p>hola@doragency.com</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Teléfono</h4>
+                                <p>+34 123 456 789</p>
+                            </div>
+                        </div>
+                        <div class="contact-method">
+                            <div class="method-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="method-info">
+                                <h4>Ubicación</h4>
+                                <p>Madrid, España</p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="trust-badges">
+                        <div class="trust-badge">
+                            <i class="fas fa-certificate"></i>
+                            <span>Meta Business Partner</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-award"></i>
+                            <span>TikTok Marketing Partner</span>
+                        </div>
+                        <div class="trust-badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>100% Transparencia</span>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="contact-form-wrapper">
+                    <form class="contact-form" id="contactForm">
+                        <div class="form-group">
+                            <label for="nombre">Nombre completo *</label>
+                            <input type="text" id="nombre" name="nombre" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="email">Email *</label>
+                            <input type="email" id="email" name="email" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="empresa">Empresa *</label>
+                            <input type="text" id="empresa" name="empresa" required>
+                        </div>
+                        <div class="form-group">
+                            <label for="facturacion">Facturación mensual aproximada *</label>
+                            <select id="facturacion" name="facturacion" required>
+                                <option value="">Selecciona un rango</option>
+                                <option value="0-10k">€0 - €10,000</option>
+                                <option value="10k-50k">€10,000 - €50,000</option>
+                                <option value="50k-100k">€50,000 - €100,000</option>
+                                <option value="100k-500k">€100,000 - €500,000</option>
+                                <option value="500k+">€500,000+</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="objetivo">Objetivo principal *</label>
+                            <select id="objetivo" name="objetivo" required>
+                                <option value="">Selecciona un objetivo</option>
+                                <option value="generar-leads">Generar más leads</option>
+                                <option value="aumentar-ventas">Aumentar ventas online</option>
+                                <option value="reducir-cpa">Reducir CPA/CAC</option>
+                                <option value="escalar-campanas">Escalar campañas existentes</option>
+                                <option value="nuevo-canal">Probar nuevo canal (TikTok/Facebook)</option>
+                            </select>
+                        </div>
+                        <div class="form-group">
+                            <label for="web">Sitio web</label>
+                            <input type="url" id="web" name="web" placeholder="https://tuempresa.com">
+                        </div>
+                        <div class="form-group">
+                            <label for="mensaje">Cuéntanos más sobre tu proyecto</label>
+                            <textarea id="mensaje" name="mensaje" rows="4" placeholder="Describe tu situación actual y lo que buscas conseguir..."></textarea>
+                        </div>
+                        
+                        <div class="form-actions">
+                            <button type="submit" class="cta-btn primary" id="submitBtn">
+                                <i class="fas fa-paper-plane"></i>
+                                Enviar solicitud
+                            </button>
+                            <button type="button" class="cta-btn secondary" onclick="openCalendly()">
+                                <i class="fas fa-calendar-alt"></i>
+                                Agenda directa
+                            </button>
+                        </div>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-brand">
+                    <h3>D <span class="accent">OR</span> Agency</h3>
+                    <p>Especialistas en Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable.</p>
+                    <div class="social-links">
+                        <a href="#" class="social-link">
+                            <i class="fab fa-linkedin"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-instagram"></i>
+                        </a>
+                        <a href="#" class="social-link">
+                            <i class="fab fa-twitter"></i>
+                        </a>
+                    </div>
+                </div>
+                
+                <div class="footer-links">
+                    <div class="footer-column">
+                        <h4>Servicios</h4>
+                        <ul>
+                            <li><a href="#servicios">Facebook Ads</a></li>
+                            <li><a href="#servicios">TikTok Ads</a></li>
+                            <li><a href="#servicios">UGC Creatives</a></li>
+                            <li><a href="#servicios">CRO & Funnel</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Empresa</h4>
+                        <ul>
+                            <li><a href="#nosotros">Sobre nosotros</a></li>
+                            <li><a href="#casos">Casos de éxito</a></li>
+                            <li><a href="#contacto">Contacto</a></li>
+                        </ul>
+                    </div>
+                    <div class="footer-column">
+                        <h4>Legal</h4>
+                        <ul>
+                            <li><a href="/legal/aviso-legal.html">Aviso Legal</a></li>
+                            <li><a href="/legal/privacidad.html">Privacidad</a></li>
+                            <li><a href="/legal/cookies.html">Cookies</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2025 D OR Agency. Todos los derechos reservados.</p>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <!-- Calendly Modal -->
+    <div id="calendlyModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3>Agenda una llamada</h3>
+                <button class="modal-close" onclick="closeCalendly()">
+                    <i class="fas fa-times"></i>
+                </button>
+            </div>
+            <div class="modal-body">
+                <!-- Aquí se cargará Calendly -->
+                <div class="calendly-inline-widget" data-url="https://calendly.com/doragency/consulta" style="min-width:320px;height:630px;"></div>
+            </div>
+        </div>
+    </div>
+
+    <!-- JavaScript -->
+    <script src="js/main.js"></script>
+    
+    <!-- Calendly widget -->
+    <script type="text/javascript" src="https://assets.calendly.com/assets/external/widget.js"></script>
+</body>
+</html>

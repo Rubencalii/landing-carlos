@@ -1,0 +1,36 @@
+# GitHub Pages configuration
+# Este archivo ayuda a GitHub Pages a servir correctamente tu sitio
+
+# Configuración básica
+title: D OR Agency - Landing Page
+description: Especialistas en Facebook Ads y TikTok Ads para marcas que buscan crecimiento rentable
+url: "https://tu-usuario.github.io/d-or-agency-landing"
+baseurl: ""
+
+# SEO settings
+author: D OR Agency
+twitter:
+  username: doragency
+  card: summary_large_image
+
+# Configuración de Jekyll (GitHub Pages usa Jekyll por defecto)
+markdown: kramdown
+highlighter: rouge
+
+# Plugins que GitHub Pages soporta automáticamente
+plugins:
+  - jekyll-feed
+  - jekyll-sitemap
+  - jekyll-seo-tag
+
+# Archivos y carpetas a excluir
+exclude:
+  - README.md
+  - package.json
+  - .gitignore
+  - node_modules/
+  - vendor/
+
+# Configuración de SEO
+lang: es_ES
+timezone: Europe/Madrid
