@@ -168,7 +168,7 @@ function openCalendly() {
         // Initialize Calendly if not already done
         if (typeof Calendly !== 'undefined' && !modal.querySelector('.calendly-inline-widget').hasChildNodes()) {
             Calendly.initInlineWidget({
-                url: 'https://calendly.com/doragency/consulta',
+                url: 'https://calendly.com/doragencymarkt/consulta',
                 parentElement: modal.querySelector('.calendly-inline-widget'),
                 prefill: {},
                 utm: {}
